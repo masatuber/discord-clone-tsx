@@ -1,0 +1,39 @@
+// Sidebar.tsx クラスCSS
+.sidebar {
+  display: flex;
+  flex: 0.35;
+  height: 100vh;
+  background-color: grey;
+
+  .sidebarLeft {
+    // 初期化で横並び
+    display: flex;
+    // カラムで縦にする
+    flex-direction: column;
+    text-align: center;
+    // 余白空ける
+    margin-top: 15px;
+    background-color: black;
+    padding: 7px 15px;
+
+    // アイコンCSS 円形にする
+    .serverIcon {
+      width: 60px;
+      height: 60px;
+      background-color: gray;
+      border-radius: 9999px;
+      margin-bottom: 10px;
+      // 左配置にする
+      position: relative;
+
+      img {
+        // imgタグのdivタグ　CSS
+        position: absolute;
+        width: 50px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
+  }
+}

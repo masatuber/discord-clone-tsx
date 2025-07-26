@@ -5,11 +5,21 @@ const Sidebar = () => {
   return (
     <>
     <div className="sidebar">
-      Sidebar
       {/* sidebarLeft */}
-      <div className="sidebarLeft"></div>
+      <div className="sidebarLeft">
+        <div className="serverIcon">
+          <img src="./vite.svg" alt="" />
+        </div>
+        <div className="serverIcon">
+          <img src="./vite.svg" alt="" />
+        </div>
+      </div>
       {/* sidebarRight */}
-      <div className="sidebarRight"></div>
+      <div className="sidebarRight">
+        <div className="sidebarTop">
+          <h3>Discord</h3>
+        </div>
+      </div>
     </div>
     </>
   );
