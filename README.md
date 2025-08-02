@@ -1,5 +1,5 @@
 # React + TypeScript + Vite
-
+for-development-onlyで基本の開発をする、mainはスマートにさせる
 # Discord tsxクローン
 npm create vite@latest
 npm i
@@ -15,4 +15,8 @@ sidebar scss 横並びで35%の比率で調整する
 
 [sassのnpmドキュメント](https://www.npmjs.com/package/sass)
 
+```bush
 npm i sass
+
+npm install @mui/icons-material @mui/material @emotion/styled @emotion/react
+```

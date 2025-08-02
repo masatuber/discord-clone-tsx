@@ -3,7 +3,7 @@
   display: flex;
   flex: 0.35;
   height: 100vh;
-  background-color: grey;
+  background-color: #312F50; // TODO: 後でHomeに移動させる
 
   .sidebarLeft {
     // 初期化で横並び
@@ -12,17 +12,18 @@
     flex-direction: column;
     text-align: center;
     // 余白空ける
-    margin-top: 15px;
-    background-color: black;
+    // margin-top: 15px;
+    background-color: #1C1B28;
     padding: 7px 15px;
 
     // アイコンCSS 円形にする
     .serverIcon {
       width: 60px;
       height: 60px;
-      background-color: gray;
+      background-color: #33363d;
       border-radius: 9999px;
       margin-bottom: 10px;
+      margin-top: 7px;
       // 左配置にする
       position: relative;
 
@@ -36,4 +37,36 @@
       }
     }
   }
+    .sidebarRight {
+      background-color: #292840;
+      width: 300px; // 横幅小さいので広げる
+
+      .sidebarTop {
+        color: #FFFFFF;
+        display: flex; // 横並び
+        align-items: center; //　センター
+        justify-content: space-between; //分配配置を設定
+        padding: 20px;
+      }
+
+      .sidebarChannels {
+        padding: 13px;
+      }
+
+      .sidebarChannelsHeader {
+        color: white;
+       display: flex;
+       justify-content: space-between;
+       margin-top: 5px;
+       align-items: center;
+      }
+
+      .sidebarHeader {
+        display: flex;
+      }
+
+      .sidebarAddIcon {
+       cursor: pointer; 
+      }
+    }
 }
