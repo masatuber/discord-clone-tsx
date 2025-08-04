@@ -2,6 +2,7 @@
 import "./sidebar.scss";
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import AddIcon from '@mui/icons-material/Add';
+import SidebarChannels from "./SidebarChannel";
 
 const Sidebar = () => {
   return (
@@ -32,6 +33,12 @@ const Sidebar = () => {
               
             </div>
               <AddIcon className="sidebarAddIcon"/>
+          </div>
+          <div className="sidebarChannelsList">
+            <SidebarChannels />
+            <SidebarChannels />
+            <SidebarChannels />
+            <SidebarChannels />
           </div>
         </div>
       </div>

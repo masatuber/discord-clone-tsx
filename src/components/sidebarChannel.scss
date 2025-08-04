@@ -1,0 +1,25 @@
+.sidebarChannel {
+  padding-left: 20px;
+  margin-top: 2px;
+  
+  h4 {
+    color: #7b7c85;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    cursor: pointer;
+
+    &:hover {  // &は親の要素
+      color: wheat;
+      background-color: #33363d;
+
+      // 丸みがあると見栄えが良い
+      border-radius: 7px;
+    }
+  }
+  .sidebarChannelHash {
+    font-size: 22px;
+    padding-right: 10px;
+  }
+}
