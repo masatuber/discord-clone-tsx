@@ -3,6 +3,9 @@ import "./sidebar.scss";
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import AddIcon from '@mui/icons-material/Add';
 import SidebarChannels from "./SidebarChannel";
+import MicTwoToneIcon from '@mui/icons-material/MicTwoTone';
+import HeadphonesTwoToneIcon from '@mui/icons-material/HeadphonesTwoTone';
+import SettingsTwoToneIcon from '@mui/icons-material/SettingsTwoTone';
 
 const Sidebar = () => {
   return (
@@ -39,6 +42,20 @@ const Sidebar = () => {
             <SidebarChannels />
             <SidebarChannels />
             <SidebarChannels />
+          </div>
+          <div className="sidebarFooter">
+            <div className="sidebarAccount">
+              <img src="./icon.png" alt="" />
+              <div className="accountName">
+                <h4>shin code</h4>
+                <span>#8162</span>
+              </div>
+            </div>
+            <div className="sidebarVoice">
+              <MicTwoToneIcon />
+              <HeadphonesTwoToneIcon />
+              <SettingsTwoToneIcon />
+            </div>
           </div>
         </div>
       </div>
